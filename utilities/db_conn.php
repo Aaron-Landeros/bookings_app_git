@@ -1,7 +1,8 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=bookings_app';
-    $username = 'root';
-    $password = '';
-    
-    $development_mode = true;
+/** ------------------------------- db_conn.php  ---------------------------*/
+$dsn = 'mysql:host=localhost;dbname=bookings;';
+//$dsn = 'mysql:host=localhost;dbname=wms_release;';
+$username = 'root';
+$password = '';
+$development_mode = true;
 ?>

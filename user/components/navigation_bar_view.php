@@ -1,15 +1,15 @@
 <div class="navigation-bar sticky-top">
-    <div class="bg-dark p-2">
+    <div class="bg-info p-2">
         <button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#handler_menu">
             <i class="fa-solid fa-bars d-flex justify-content-start align-items-start text-white fs-1 fw-bold"></i>
         </button>
     </div>
 </div>
-<div class="offcanvas offcanvas-start" backdrop data-bs-scroll="true" id="handler_menu" >
-    <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" id="get-dashboard-view" class="offcanvas-header p-0" data-section="dashboard">
+<div class="offcanvas offcanvas-start"  backdrop data-bs-scroll="true" id="handler_menu" >
+    <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" id="get-dashboard-view" class="offcanvas-header p-0 bg-info"" data-section="dashboard">
         <img src="assets/entheo_wms_logo.svg" alt="Logo"  class="img-fluid p-3 mt-3" >
     </div>
-    <div class="sidebar offcanvas-body d-flex flex-column p-0">
+    <div class="sidebar offcanvas-body d-flex flex-column p-0 bg-info">
         <nav class="navbar">
             <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" id="appointment_get_view" data-section="registro_horas" class="container p-4 border border-top-2 border-bottom-2 border-start-0 border-end-0 ">
                 <a class="nav-link text-white">
