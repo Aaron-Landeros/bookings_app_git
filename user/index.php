@@ -1,8 +1,14 @@
 <?php
 session_start();
 
-$user_fullname = $_SESSION['user_fullname'];
-?> 
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+
+$user_fullname = $_SESSION["user_fullname"];
+?>
+ 
 
 <!DOCTYPE html>
 <html lang="en" >
@@ -35,6 +41,7 @@ $user_fullname = $_SESSION['user_fullname'];
     <script src="service/js/service_event_controller.js"></script>
     <script src="account/js/account_event_controller.js"></script>
     <script src="login/js/login_event_controller.js"></script>
+    <script src="navigation/navigation.js"></script>
     
 </body>
 </html>
