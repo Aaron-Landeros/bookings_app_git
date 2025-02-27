@@ -29,6 +29,14 @@
                     <span class="ms-4 fs-2">Services</span>
                 </a>
             </div>
+            <div class="container p-4 border border-top-2 border-bottom-2 border-start-0 border-end-0">
+                <a class="nav-link text-white">
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    </div>
+                </a>
+            </div>
         </nav>
         <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" class="position-absolute bottom-0 p-3">
             <a id="get-account-view" data-section="account" class="navbar-brand text-white d-flex flex-row p-2">
