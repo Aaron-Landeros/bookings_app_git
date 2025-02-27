@@ -5,4 +5,5 @@ $dsn = 'mysql:host=localhost;dbname=bookings;';
 $username = 'root';
 $password = '';
 $development_mode = true;
+
 ?>
