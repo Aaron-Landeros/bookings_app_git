@@ -36,6 +36,7 @@ $user_fullname = $_SESSION["user_fullname"];
     <script src="../utilities/js/jquery.js"></script>
     <script src="../utilities/sweetalert2/sweetalert2.min.js"></script>
     
+    <script src="navegacion/navegacion_event_controller.js"></script>
     <script src="appointments/js/appointments_event_controller.js"></script>
     <script src="profile/js/profile_event_controller.js"></script>
     <script src="service/js/service_event_controller.js"></script>
