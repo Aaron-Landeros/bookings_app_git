@@ -19,5 +19,5 @@
         <p class="fw-bold mb-0">Email</p>
         <p><?=$user_data['company_email']?></p>
         <p class="fw-bold mb-0">Type</p>
-        <p><?=$user_data['company_type']?></p>
+        <p><?=$user_data['company_type']?></p> 
 </div>
