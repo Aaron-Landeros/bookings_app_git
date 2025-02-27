@@ -1,0 +1,63 @@
+.navbar {
+  background-color: rgb(66, 61, 55);
+}
+
+select {
+  width: 18%;
+  height: 40px;
+  background-color: rgb(66, 61, 55);
+  color: white;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+strong {
+  color: rgb(0, 153, 255);
+  text-transform: uppercase;
+}
+
+.card-gray {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  height: 10rem;
+}
+
+.form-cont {
+  width: 100%;
+  border: 1px solid rgb(66, 61, 55);
+  border-radius: 20%;
+}
+
+.select-form {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.nav-item {
+  background-color: rgb(66, 61, 55);
+  border-radius: 0%;
+}
+
+.nav-tabs {
+  background-color: rgb(66, 61, 55);
+}
+
+.nav-link {
+  border-radius: 0% !important;
+  color: white;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: white;
+}
+
+.active button {
+  color: red !important;
+}
+
+.section-modal1 {
+  border: 1px solid gray;
+}
