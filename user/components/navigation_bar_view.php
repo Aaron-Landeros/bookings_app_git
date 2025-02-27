@@ -29,6 +29,13 @@
                     <span class="ms-4 fs-2">Services</span>
                 </a>
             </div>
+                <li class="nav-item align-items-center d-flex" >
+                    <i class="fa-solid fa-sun fa-xl"></i>
+                    <div class="ms-2 form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="themingSwitcher" />
+                    </div>
+                    <i class="fa-solid fa-moon fa-xl"></i> 
+                </li>
         </nav>
         <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" class="position-absolute bottom-0 p-3">
             <a id="get-account-view" data-section="account" class="navbar-brand text-white d-flex flex-row p-2">
