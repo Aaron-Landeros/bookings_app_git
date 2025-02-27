@@ -2,7 +2,7 @@
     <div class="container header">
         <div class="row">
             <div class="col-6">
-                <h4 class="p-4">Appointment</h4>
+                <h1 class="p-4">Appointment</h1>
             </div>
             <div class="col-6 text-right p-2 fw-bold text-end p-4"> 
                     <button id="add_appointment" type="button" class="btn btn-info text-light mx-2 w-50 text-center">+ add</button>
