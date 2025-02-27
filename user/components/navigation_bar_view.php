@@ -29,6 +29,12 @@
                     <span class="ms-4 fs-2">Services</span>
                 </a>
             </div>
+                        <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" id="service_get_view" data-section="nomina" class="container p-4 border border-top-2 border-bottom-2 border-start-0 border-end-0">
+                <a class="nav-link text-white">
+                    <i class="fa-solid fa-gear fs-1"></i>
+                    <span class="ms-4 fs-2">Settings</span>
+                </a>
+            </div>
                 <li class="nav-item align-items-center d-flex" >
                     <i class="fa-solid fa-sun fa-xl"></i>
                     <div class="ms-2 form-check form-switch">
@@ -36,6 +42,7 @@
                     </div>
                     <i class="fa-solid fa-moon fa-xl"></i> 
                 </li>
+
         </nav>
         <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" class="position-absolute bottom-0 p-3">
             <a id="get-account-view" data-section="account" class="navbar-brand text-white d-flex flex-row p-2">
