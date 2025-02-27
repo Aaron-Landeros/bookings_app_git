@@ -34,7 +34,7 @@
                     <div class="ms-2 form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="themingSwitcher" />
                     </div>
-                    <i class="fa-solid fa-moon fa-xl"></i>
+                    <i class="fa-solid fa-moon fa-xl"></i> 
                 </li>
         </nav>
         <div data-bs-toggle="offcanvas" data-bs-target="#handler_menu" class="position-absolute bottom-0 p-3">
